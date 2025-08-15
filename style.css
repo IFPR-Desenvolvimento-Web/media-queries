@@ -10,6 +10,7 @@
     --ametist-color: #9b59b6; 
     --sunflower-color: #f1c40f; 
     --carrot-color: #e67e22; 
+    --tea-leaf:#7ADAA5;
 }
 
 body {
@@ -32,11 +33,12 @@ h1, h2, h3 {
 
 .menu ul {
     margin: 20px 10px 10px 10px;
+    display: flex;
 }
 
-.menu ul li {
-    display: inline-block;
+.menu ul li {    
     padding: 10px;
+    list-style: none;
 }
 
 .menu-responsivo {
@@ -45,21 +47,24 @@ h1, h2, h3 {
     /* realizar atividade */
 }
 
-.caixa-container {
+.cards {
+    /* realizar atividade */
+
+}
+
+.card-container {
     /* realizar atividade */
 }
 
-
-.caixa {
+.card {
+    
+    max-width: 100%;
     min-height: 200px;
-
-    margin: 10px;
-    padding: 10px;
 
     text-align: center;
     line-height: 150px;
 
-    background: #27ae60;
+    background: var(--tea-leaf);
     color: #fff;
 
 }
